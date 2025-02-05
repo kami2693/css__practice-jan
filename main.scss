@@ -1,1 +1,5 @@
-
+@use './styles/_variables/variables';
+@use './styles/_variables/reset';
+@use './styles/_variables/page';
+@use './styles/blocks/people';
+@use './styles/blocks/person';

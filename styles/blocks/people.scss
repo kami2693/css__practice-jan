@@ -1,0 +1,20 @@
+@use '../_variables/variables';
+
+.people {
+  --column-count: 2;
+
+  padding: 30px 55px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--column-count), 220px);
+  grid-auto-rows: 250px;
+  place-content: center center;
+  justify-items: center;
+  gap: 20px 10px;
+}
+
+@media (min-width: 1000px) {
+  .people {
+    --column-count: 4;
+  }
+}
